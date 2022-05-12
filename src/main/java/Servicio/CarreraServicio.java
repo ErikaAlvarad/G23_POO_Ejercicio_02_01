@@ -32,8 +32,7 @@ public class CarreraServicio implements ICarreraServicio {
     @Override
     public Carrera eliminar(int n) {
         var carrera = this.carreraList.get(this.buscarPosicion(n));
-        this.carreraList.remove(this.buscarPosicion(n));
-        System.out.println(carrera.toString()); 
+        this.carreraList.remove(this.buscarPosicion(n)); 
         return carrera;
     }
 

@@ -31,7 +31,7 @@ public class G23_POO_Ejercicio_02_01_1 {
             System.out.println(c.toString());
         
     carreraControl.eliminar(24);
-    System.out.println("Listado Eliminando el código 20");
+    System.out.println("Listado Eliminando el código 24");
     for (Carrera c: carreraControl.listar())
         System.out.println(c.toString());
     
@@ -39,7 +39,7 @@ public class G23_POO_Ejercicio_02_01_1 {
     var nuevaCarrera = new Carrera(78,"Derecho",150,5,2030,nuevaAsignatura);    
     carreraControl.modificar(45, nuevaCarrera);
     
-     System.out.println("Listado modificado el código 10");
+     System.out.println("Listado modificado el código 45");
     for (Carrera c: carreraControl.listar())
             System.out.println(c.toString());
     
